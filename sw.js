@@ -1,5 +1,5 @@
-const CACHE = 'inversiones-mvztt7nn'
-const ARCHIVOS = ["./","manifest.webmanifest","pwa/apple-touch-icon.png","pwa/icon-192.png","pwa/icon-512.png","assets/index-2AGERQ_a.css","assets/index-z5U9QovJ.js","assets/jspdf.es.min-Fx9LdbTL.js","assets/jspdf.plugin.autotable-81Htps2Y.js","assets/html2canvas.esm-CBrSDip1.js","assets/purify.es-BaNf_EpD.js","assets/index.es-BXcRwYGL.js"]
+const CACHE = 'inversiones-mvzvtztv'
+const ARCHIVOS = ["./","manifest.webmanifest","pwa/apple-touch-icon.png","pwa/icon-192.png","pwa/icon-512.png","assets/index-08IiMKVH.css","assets/index-DftAzm40.js","assets/jspdf.es.min-Dx486_vQ.js","assets/jspdf.plugin.autotable-81Htps2Y.js","assets/html2canvas.esm-CBrSDip1.js","assets/purify.es-BaNf_EpD.js","assets/index.es-Mk-Hl1P3.js"]
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARCHIVOS)).then(() => self.skipWaiting()))
